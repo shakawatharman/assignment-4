@@ -94,7 +94,7 @@ console.log(yourOrder);
 
 function perfectFriend(friendsName) {
     for (i = 0; i < friendsName.length; i++) {
-        if (typeof friendsName[i] != String) {
+        if (typeof friendsName[i] != "string") {
             return "Your input is not VALID"
         } else if (friendsName[i].length == 5) {
             return friendsName[i];
